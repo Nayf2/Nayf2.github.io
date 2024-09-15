@@ -1,0 +1,209 @@
+body{
+    font-family: "SUSE", sans-serif;
+    margin: 0px;
+    font-size: 1.25vw;
+}
+
+/* Header Section  */
+#header_main{
+    display: flex;
+    background-color: #edc7b7;
+    color: black;
+    padding: .5%;
+    
+}
+
+#header_logo{
+    border-radius: 50%;
+    border: 2px solid white;
+    text-align: left;
+    border-right: 50%;
+}
+
+.navbutton:hover {
+    background-color: #eee2dc;
+}
+
+.navbutton {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: #be9f92;
+}
+
+main>article>header{
+    border-left: 5px solid #be9f92;
+    padding-left: 10px;
+    color: #555;
+}
+
+/* Quote */
+body>header{
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#content_header{
+    text-align: left;
+}
+
+#content_header>h2{
+    border-left: 5px solid #be9f92;
+    padding-left: 10px;
+    color: #555;
+}
+
+#content_header>h4{
+    border-left: 5px solid #be9f92;
+    padding-left: 10px;
+    color: #555;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#main_content article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#main_content article h2, #main_content article h4 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+#main_content p {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    border-left: 5px solid #be9f92;
+    padding-left: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+
+/* Main recipe */ 
+#ingredients{
+    text-align: left;
+    display: flex;
+}
+
+#ingredients>li{
+    margin-bottom: 15px;
+}
+
+#recipe_header{
+    display: flex;
+    border: 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    border-left: 5px solid #be9f92;
+    padding-left: 10px;
+    color: #555;
+}
+
+#hummus{
+    text-decoration: none;
+    padding: 20px;
+}
+#recipe {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#instructions>li{
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* form */
+
+#form{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main>h2{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#form>h2{
+    border-left: 5px solid #be9f92;
+    padding-left: 10px;
+    color: #555;
+}
+
+/* About section */
+#contact>p{
+    text-align: left;
+}
+
+.chef_pic{
+    border-left: 10px;
+    border-radius: 60%;
+}
+
+#bio{
+    text-align: center;
+}
+
+#profile{
+    text-decoration: none;
+    padding: 20px;
+}
+/* footer */
+footer{
+    background-color: #edc7b7;
+}
+#footer-ul{
+    display: flex;
+    list-style: none
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: black
+}
+
+.footer{
+    color: black;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.footer:hover{
+    background-color: #eee2dc;
+}
+
+footer>h2{
+    margin-left: 10px;
+}
